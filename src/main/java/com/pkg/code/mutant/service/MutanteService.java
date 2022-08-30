@@ -49,7 +49,7 @@ public class MutanteService implements MutanteInterfaz {
             if (adnMutante){
                 return  new JsonResult(HttpStatus.OK,"EL adn ingresado es de un humano mutante");
             }else{
-                return  new JsonResult(HttpStatus.OK,"El adn ingresado es de un humano normal");
+                return  new JsonResult(HttpStatus.FORBIDDEN,"El adn ingresado es de un humano normal");
             }
         }catch (HandledException e){
             return new JsonResult(e.getStatusCode(),e.getMessage());

@@ -29,9 +29,9 @@ public class MutanteController {
         return ResponseEntity.status(result.getStatus()).body(result);
     }
 
-   /* @GetMapping("/all")
+    @GetMapping("/all")
     public ResponseEntity<List<Mutante>> estadisticaMutantes() {
         List<Mutante> list =  service.buscarMustantes();
         return ResponseEntity.ok(list);
-    }*/
+    }
 }
