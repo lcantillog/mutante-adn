@@ -42,6 +42,7 @@ En este caso el llamado a la función
 Desarrolla el algoritmo de la manera más eficiente posible.
 
 #DESAFIOS
+
 ###Nivel 1:
 Programa que cumpla con el método pedido por Magneto. 
 ###Nivel 2:
@@ -73,12 +74,13 @@ Test-Automáticos, Code coverage > 80%.
 
 #RESULTADO
 
-####Instalar base de datos Sql Server 
-####Restaurar base de datos archivo  mutante.bak
-#### Intellije Idea
-#### Abrir proyecto y correr
+- Instalar base de datos Sql Server 
+- Restaurar base de datos archivo  mutante.bak
+- Intellije Idea
+- Abrir proyecto y correr
 
 #End point
 
 ##http://localhost:8091/mutant/
+
 ##http://localhost:8091/stats/
